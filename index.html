@@ -4,179 +4,105 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS Style -->
+    <!--------------------- CSS Style ------------------------------------>
     <link rel="stylesheet" href="style.css" />
-    <!-- Bootstrap Style -->
+    <!---------------------Bootstrap Style ------------------------------->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     />
-    <!-- Font Awesome Style -->
+    <!------------------- Font Awesome Style ----------------------------->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
+  <!--------------------------Color background------------------------------>
   <body class="bg-light">
     <!--Menu top navegation-->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <div class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand text-uppercase">Journey</a>
+        <!---------------------brand--------------------------------->
+        <div>
+          <a href="#" class="navbar-brand text-uppercase">Journey</a>
+        </div>
+        <!--------------------nav------------------------------------>
         <div>
           <ul class="navbar-nav">
+            <!-----------------Blog------------------------------------->
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase active">Blog</a>
             </li>
+            <!---------------------Articles------------------------------>
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase">Articles</a>
             </li>
+            <!---------------------Gallery------------------------------->
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase">Gallery</a>
             </li>
+            <!-------------------Contact----------------------------------->
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase">Contact</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <div class="container-fluid px-0">
-      <div id="main carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li
-            data-target="#main carousel"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#main carousel" data-slide-to="1"></li>
-          <li data-target="#main carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="imagens/image-4.avif"
-              alt=""
-              class="d-block w-100 img-fluid"
-            />
-            <div class="carousel caption d-none d-md-block">
-              <h5 class="display-4 text-uppercase">
-                Take the firt step of your journey
-              </h5>
-              <div class="text-left">
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate dignissimos adipisci repellendus libero quibusdam
-                  officia officiis, nesciunt est animi iusto. Provident, earum
-                  quam odit, doloribus maxime tempora inventore quasi quos sed
-                  exercitationem, incidunt natus assumenda neque sunt in
-                  voluptatem fugiat.
-                </p>
-                <p class="text-capitalize">
-                  read more <i class="fas fa-long-arrow-alt-right ml-2"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <img
-              src="imagens/capa-2.avif"
-              alt=""
-              class="d-block w-100 img-fluid"
-            />
-            <div class="carousel caption d-none d-md-block">
-              <h5 class="display-4 text-uppercase">
-                Take the firt step of your journey
-              </h5>
-              <div class="text-left">
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate dignissimos adipisci repellendus libero quibusdam
-                  officia officiis, nesciunt est animi iusto. Provident, earum
-                  quam odit, doloribus maxime tempora inventore quasi quos sed
-                  exercitationem, incidunt natus assumenda neque sunt in
-                  voluptatem fugiat.
-                </p>
-                <p class="text-capitalize">
-                  read more <i class="fas fa-long-arrow-alt-right ml-2"></i>
-                </p>
-              </div>
-            </div>
-            <!--carousel caption d-none d-md-block-->
-          </div>
-          <!--Carousel-->
-          <div class="carousel-item active">
-            <img
-              src="imagens/foto 2.jpg"
-              alt=""
-              class="d-block w-100 img-fluid"
-            />
-            <div class="carousel caption d-none d-md-block">
-              <h5 class="display-4 text-uppercase">
-                Take the firt step of your journey
-              </h5>
-              <div class="text-left">
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate dignissimos adipisci repellendus libero quibusdam
-                  officia officiis, nesciunt est animi iusto. Provident, earum
-                  quam odit, doloribus maxime tempora inventore quasi quos sed
-                  exercitationem, incidunt natus assumenda neque sunt in
-                  voluptatem fugiat.
-                </p>
-                <p class="text-capitalize">
-                  read more <i class="fas fa-long-arrow-alt-right ml-2"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
+    </div>
+    <!----------------------Carousel------------------------------------->
+    <div id="meu-carrossel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#meu-carrossel" data-slide-to="0" class="active"></li>
+        <li data-target="#meu-carrossel" data-slide-to="1"></li>
+        <li data-target="#meu-carrossel" data-slide-to="2"></li>
+      </ol>
+      <!-- Conteúdo do slide 1 -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <img
-            src="imagens/foto 3.jpg"
+            src="imagens/Capa-1.jpg"
             alt=""
             class="d-block w-100 img-fluid"
           />
-          <div class="carousel caption d-none d-md-block">
-            <h5 class="display-4 text-uppercase">
-              Take the firt step of your journey
-            </h5>
-            <div class="text-left">
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate dignissimos adipisci repellendus libero quibusdam
-                officia officiis, nesciunt est animi iusto. Provident, earum
-                quam odit, doloribus maxime tempora inventore quasi quos sed
-                exercitationem, incidunt natus assumenda neque sunt in
-                voluptatem fugiat.
-              </p>
-              <p class="text-capitalize">
-                read more <i class="fas fa-long-arrow-alt-right ml-2"></i>
-              </p>
-            </div>
-            <!--text-left-->
-          </div>
-          <!--carousel caption d-none d-md-block-->
         </div>
-        <!--carousel-inner-->
+        <!-- Conteúdo do slide 2 -->
+        <div class="carousel-item">
+          <img
+            src="imagens/Capa-2.jpg"
+            alt=""
+            class="d-block w-100 img-fluid"
+          />
+          <!-- Conteúdo do slide 2 -->
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagens/capa-3.jpg"
+            alt=""
+            class="d-block w-100 img-fluid"
+          />
+          <!-- Conteúdo do slide 3 -->
+        </div>
       </div>
       <a
-        href="#main-carousel"
-        class="carousel-prev"
+        class="carousel-control-prev"
+        href="#meu-carrossel"
         role="button"
         data-slide="prev"
       >
-        <span class="carousel-control-prev-icon"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
       </a>
       <a
-        href="#main-carousel"
-        class="carousel-next"
+        class="carousel-control-next"
+        href="#meu-carrossel"
         role="button"
         data-slide="next"
       >
-        <span class="carousel-control-next-icon"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
       </a>
-      <!--carousel carousel slide-->
     </div>
+
     <!--container-fluid-px-0-->
     <div class="container-fluid p-5">
       <div class="d-flex align-items-center justify-content-around">
@@ -188,6 +114,7 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
+            categories
             <!--categories-->
           </button>
           <div class="dropdown-menu">
@@ -419,6 +346,7 @@
         </p>
       </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>

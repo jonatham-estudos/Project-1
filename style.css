@@ -20,3 +20,11 @@ html::-webkit-scrollbar {
   max-width: 300px;
   
 }
+
+.carousel-caption {
+  font-family: 'Arial', sans-serif;
+}
+
+.carousel-caption h5 {
+  font-family: 'Verdana', sans-serif;
+}
