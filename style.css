@@ -28,3 +28,7 @@ html::-webkit-scrollbar {
 .carousel-caption h5 {
   font-family: 'Verdana', sans-serif;
 }
+.card-img-top {
+  max-width: 300px;
+  height: auto;
+}
