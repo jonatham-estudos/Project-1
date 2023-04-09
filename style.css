@@ -1,15 +1,15 @@
-/* barra de rolagem não deve ser exibida */
+/* hide the scroll bar */
 html::-webkit-scrollbar {
   display: none;
 }
-/*  define um estilo para os indicadores do carrosse */
+/*  carousel indicator styles */
 .corousel indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100%;
   
 }
-/*  estilo da legenda do carrossel */
+/*  carousel caption style */
 .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
@@ -17,35 +17,36 @@ html::-webkit-scrollbar {
   text-shadow: 2px 2px #000;
 
 }
-/*   define uma regra de estilo para elementos com a classe .input-group */
+/*    rule for elements with the .input-group class */
 .input-group{
   max-width: 300px;
   
 }
-/*  estilo da legenda do carrossel */
+/*  carousel caption style */
 .carousel-caption {
   font-family: 'Arial', sans-serif;
 }
-/*  Define o estilo para o texto exibido na legenda do carrosse */
+/*  Sets the style for the text displayed in the carousel caption */
 .carousel-caption h5 {
-  /*  Define a família da fonte utilizada para o texto da legenda */
+  /*  Sets the font family used for caption text */
   font-family: 'Verdana', sans-serif; 
 }
-/*  propriedades para as imagens dos cards  */
+/*  properties for card images  */
 .card-img-top {
     max-width: 300px;
    height: auto;
 }
-
+/*  The .social-link class defines the style of social network icons in the footer */
 .social-link {
   font-size: 24px;
   color: #fff;
 }
-
+/*  The .social-link class defines the style of social network icons in the footer */
 .social-link:hover {
   color: #f1c40f;
 }
-
+/*  The .social-link:hover class defines the style of the icons when the mouse hovers over them */
 footer {
   font-size: 14px;
 }
+

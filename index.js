@@ -1,7 +1,7 @@
-// Inicialize o carrossel
+// Initialize the carousel
 $('.carousel').carousel()
 
-// Adicione um evento de clique para pausar o carrossel quando o mouse estiver sobre ele
+// Add a click event to pause the carousel when the mouse is over it
 $('.carousel').hover(
   function () {
     $(this).carousel('pause')
@@ -11,7 +11,7 @@ $('.carousel').hover(
   }
 )
 
-// Adicione um evento de clique para avançar/retroceder o carrossel com as setas do teclado
+// add a click event to forward/backward the carousel with keyboard arrows
 $(document).keydown(function (e) {
   if (e.keyCode == 37) {
     $('.carousel').carousel('prev')
@@ -19,7 +19,7 @@ $(document).keydown(function (e) {
     $('.carousel').carousel('next')
   }
 })
-// ampliar e reduzir as imagens do carrossel
+// zoom in and out of carousel images
 function aumentarImagem(img) {
   img.style.transform = 'scale(1.2)'
 }
