@@ -19,7 +19,7 @@ $(document).keydown(function (e) {
     $('.carousel').carousel('next')
   }
 })
-
+// ampliar e reduzir as imagens do carrossel
 function aumentarImagem(img) {
   img.style.transform = 'scale(1.2)'
 }
